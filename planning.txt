@@ -1,0 +1,12 @@
+Game objective and conditions: The player must guess the correct letters of the word to get their racer to the finish line. Every wrong guess moves the racing opponent closer to the finish line instead. If the opponent reaches the finish line first, the player loses the game.
+Visual: There will be an image of the Monaco Grand Prix racetrack with two race cars in the starting position. Above the track, there will be empty white boxes where the correct letters to the word will appear as they are chosen. A keyboard-like selection of letters will be underneath the track. A restart button will be in the top right corner. A letter counter will be in the top left corner to keep track of incorrect letters. For example, if the word is “Engine” then the top left would display ‘Incorrect Guesses: 0/6’.
+What the code will do: Every time a letter is clicked, the letter will be greyed out and made unclickable. If the letter is correct it will appear in the appropriate boxes above and the player’s race car will appear to move forward. If the letter is incorrect the counter will update the number of incorrect guesses above and the opponent’s race car will appear to move forward. When the player’s race car reaches the finish line the words “Victory” will appear. If the opponent reaches the finish line instead the words “Maybe Next Time”. The restart button resets the game.
+
+
+Words:
+Engine
+Winner
+Driver
+Trophy
+Faster
+Monaco
