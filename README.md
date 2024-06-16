@@ -1,4 +1,4 @@
-![Game Logo](/ga/projects/F1Racing-Word-Game/images/game-logo.png)
+![Game Logo](/images/game-logo.png)
 
 # Spaceman: F1 Racing Edition
 In this fun version of Spaceman, the player must guess the correct letters of the word to get their racer to the finish line. Every wrong guess moves the racing opponent closer to the finish line instead. If the opponent reaches the finish line first, the player loses the game!
