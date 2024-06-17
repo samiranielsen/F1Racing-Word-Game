@@ -6,11 +6,27 @@
     <title></title>
     <link rel="stylesheet" href="style.css">
     <script src="app.js" defer></script>
-    <!-- fun font link -->
-</head>
 <body>
+    <div class="container">
+        <div id="word-container" class="word-container"></div>
+        <div id="keyboard" class="keyboard"></div>
+        <div id="modal" class="modal">
+    <p id="modal-message"></p>
+    <button id="modal-close">Close</button>
+  </div>
+  <div id="modal-overlay" class="modal-overlay"></div>
+    </div>
     <header>
-        <h2 id="incorrect">Incorrect Guesses:</h2> <!--top left-->
-    </header>
+        <h3 id="wrongLetterCount">Guesses: <span id="guesses">6</span></h3> <!--top left-->
+        <h1>Spaceman: F1 Edition</h1>
+        <button class="restart-button" id="restart-button" type="button">Restart</button> <!--top right-->
+ </header>
+    <main>
+         <div class="letter-spaces" id="letter-spaces">
+         <div class="word-display" id="word-display">
+         </div>
+         </div>
+    </main>
 </body>
+
 </html>
