@@ -10,3 +10,6 @@ Driver
 Trophy
 Faster
 Monaco
+
+
+update: I was not able to add the actual car animations but will try to in the future.
