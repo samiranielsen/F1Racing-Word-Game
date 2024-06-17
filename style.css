@@ -1,4 +1,121 @@
 body {
-
-
+  background-image: url("/images/spaceman-bg.png");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-rows: auto 2fr auto;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    'header header header'
+    'main main main'
+    'footer footer footer';
 }
+
+/* reference for grid template set up, see additional page links (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) */
+
+header {
+  grid-area: header;
+  background-color: #7a8388;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  margin: 0%;
+}
+
+header button {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+/* Resource for rounding buttons (https://stackoverflow.com/questions/8446286/how-to-make-round-buttons) */
+
+main {
+  grid-area: main;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.word-container {
+  font-size: 50px;
+  width: 300px;
+  padding: 10px 20px 10px 10px;
+  margin-right: 100px;
+  margin-left: 550px;
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.key {
+  margin: 20px 5px 10px 10px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: #fb7806;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+
+.key.disabled {
+  background-color: #aaa;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.keyboard {
+  grid-area: footer;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.modal {
+  display: none;
+  position: fixed;
+  font-size: large;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 999;
+}
+/* Resource for transform property (https://developer.mozilla.org/en-US/docs/Web/CSS/transform) */
+
+.modal.show, .modal-overlay.show {
+  display: block;
+}
+
+/* Resource for creating a modal (https://developer.mozilla.org/en-US/docs/Web/CSS/:modal) */
+
+button:hover {
+  background-color: #fb7806;
+  color: white;
+}
+
+/* Resource for changing button color when hovered over (https://www.shecodes.io/athena/26736-how-to-make-a-button-hover-using-css) */
