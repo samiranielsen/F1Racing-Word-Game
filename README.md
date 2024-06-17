@@ -12,6 +12,9 @@ In this fun version of Spaceman, the player must guess the correct letters of th
 * HTML
 * CSS
 * Canva online software for custom artwork
+* Online resources commented in the code
 
 ## Next steps:
-***Future plans here***
+* Add actual graphics depicting two race cars moving as a letter is chosen.
+* Add an opening page that has instructions and a button to start the game.
+* Add music and sound effects
