@@ -5,7 +5,7 @@ In this fun version of Spaceman, the player must guess the correct letters of th
 > Fun Fact: I chose to build this game because I loved playing Spaceman as a child. I'm also an F1 Racing fanatic, hence the theme!
 
 ## Getting started:
-***link to deployed game, instructions, link to planning materials goes here***
+**(https://samiranielsen.github.io/spaceman-f1racing/)**
 
 ## Technologies:
 * JavaScript
